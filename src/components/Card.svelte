@@ -3,9 +3,12 @@
     import { browser } from "$app/env";
 
     let isMobile = true;
-    let mobileSrc = "../../static/pattern-divider-mobile.svg";
-    let desktopSrc = "../../static/pattern-divider-desktop.svg";
-    let dice = "../../static/icon-dice.svg";
+    let mobileSrc =
+        "https://firebasestorage.googleapis.com/v0/b/advice-app-1297xt.appspot.com/o/pattern-divider-mobile.svg?alt=media&token=f7c49596-b86d-4cf6-80f3-5a07d1c29cf8";
+    let desktopSrc =
+        "https://firebasestorage.googleapis.com/v0/b/advice-app-1297xt.appspot.com/o/pattern-divider-desktop.svg?alt=media&token=1024505e-5510-4425-a1bc-d989718862d6";
+    let dice =
+        "https://firebasestorage.googleapis.com/v0/b/advice-app-1297xt.appspot.com/o/icon-dice.svg?alt=media&token=9814b6ca-54a2-4899-a233-069766cbbb8b";
     const handleClick = () => {
         getAdvice();
     };
